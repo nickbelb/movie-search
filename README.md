@@ -1,1 +1,1 @@
-Click [Here](https://nickbelb.github.io/quick-qwerty/) to see a demo
+Click [Here](https://nickbelb.github.io/movie-search/) to see a demo
