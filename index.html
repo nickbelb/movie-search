@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="v1ewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nicolas Beltran">
+        <meta name="description" content="Nicolas Beltran: Web developer">
+        <link rel="stylesheet" href="./assets/styles/base.css" media="all">
+        <script src="./assets/scripts/app.js" type="module" defer></script>
+        <title>MoviesIO</title>
+    </head>
+    <body>
+        <main class="main">
+            <div class="container flex-center">
+                <div class="search-options">
+                    <h2> MoviesIO</h2>
+                    <h3 >Find your favorite movies here</h3>
+                    <form class="search-movies-bar">
+                        <input type="text" class="movie-name" placeholder="Movie name"/>
+                        <input type="button" class="search-movie-btn" value="Search">
+                    </form>
+                </div>
+                <div class="results-area">
+                    <div class="result-list">
+                       
+                    </div>
+                </div>  
+
+                <div class="movie-details flex hidden">
+                    <div class="movie-image-container"> 
+                        <img class="movie-image">
+                    </div>
+                    <div class="movie-description">
+                        <p class="movie-title movie-items"></p>
+                        <div class="duration-year movie-items flex">
+                            <p class="movie-duration"></p>
+                            <span></span>
+                            <p class="movie-year"></p>
+                        </div>
+                        <p class="movie-plot movie-items"></p>
+                        <div class="movie-genres movie-items flex"> 
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main> 
+    </body>
+</html>
